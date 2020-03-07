@@ -1,0 +1,27 @@
+------------------
+EVENTO
+------------------
+
+IdEvento
+NombreEvento
+Recinto
+Ciudad
+Fecha
+Hora
+PathImagen
+InfoComplementaria
+
+--------------------
+COCHE
+--------------------
+
+IdCoche
+IdEvento
+Propietario
+TelfPropietario
+tipoVehiculo modelo
+ano
+puntoSalida HoraSalida
+numPlazasLibres
+numPlazasOcupadas
+InfoComplementaria

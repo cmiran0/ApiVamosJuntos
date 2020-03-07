@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a35c935-4c95-482d-b6b6-b57e5aead234" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="apiVamosJuntos" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YigTAfxBxSm7aicEi4y6yE5Do7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="app.jpa" />
+      <recent name="app.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crist\IdeaProjects\apiVamosJuntos\src\main\resources" />
+      <recent name="C:\Users\crist\IdeaProjects\apiVamosJuntos\src\main\java\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apiVamosJuntos.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a35c935-4c95-482d-b6b6-b57e5aead234" name="Default Changelist" comment="" />
+      <created>1583430833787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583430833787</updated>
+      <workItem from="1583430837355" duration="4925000" />
+      <workItem from="1583436691252" duration="352000" />
+      <workItem from="1583437060325" duration="106000" />
+      <workItem from="1583439705684" duration="3774000" />
+      <workItem from="1583443882371" duration="273000" />
+      <workItem from="1583491717449" duration="12467000" />
+      <workItem from="1583509368287" duration="1870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Project_Structure" timestamp="1583431047378">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1583431047378" />
+    <state x="765" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1583510046274">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583510046274" />
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583491782426">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583491782426" />
+    <state width="1877" height="780" key="GridCell.Tab.0.bottom" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.0.center" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.0.left" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.0.right" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.1.bottom" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.1.center" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.1.left" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state width="1877" height="780" key="GridCell.Tab.1.right" timestamp="1583508386167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="780" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583508386167" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1583431602000">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583431602000" />
+  </component>
+</project>
