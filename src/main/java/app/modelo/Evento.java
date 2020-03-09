@@ -1,5 +1,7 @@
 package app.modelo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,23 +9,17 @@ import java.util.List;
 
 @Entity
 public class Evento implements Serializable {
-
-    @ManyToMany(targetEntity = Coche.class)
-    @JoinTable(name = "coche_like", joinColumns = @JoinColumn(name = "evento_id"), inverseJoinColumns = @JoinColumn(name = "coche_id"))
-    private List<Coche> cocheListEvento=new ArrayList<>();
-
-
-
-
-
-
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nombreEvento, recinto, ciudad, fecha, hora, pathImagen, infoCOmplemetnaria;
+    private String nombreEvento, recinto, ciudad, fecha, hora, pathImagen, infoComplemetnaria;
     private String puntoSalida, horaSalida;
 
-
+    /*@JsonIgnore
+    @ManyToMany(targetEntity = Coche.class)
+    @JoinTable(name = "coche_like", joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "id"))
+    private List<Coche> cocheListEvento = new ArrayList<>();*/
 
     public Evento() {
     }
@@ -101,11 +97,12 @@ public class Evento implements Serializable {
         this.pathImagen = pathImagen;
     }
 
-    public String getInfoCOmplemetnaria() {
-        return infoCOmplemetnaria;
+    public String getInfoComplemetnaria() {
+        return infoComplemetnaria;
     }
 
-    public void setInfoCOmplemetnaria(String infoCOmplemetnaria) {
-        this.infoCOmplemetnaria = infoCOmplemetnaria;
+    public void setInfoComplemetnaria(String infoComplemetnaria) {
+        this.infoComplemetnaria = infoComplemetnaria;
     }
+
 }

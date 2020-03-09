@@ -9,6 +9,6 @@ import java.util.List;
 
 @Repository
 public interface UsuarioRepo extends CrudRepository<Usuario, Long> {
-    //List<Coche> findAllByCocheList();
-    Usuario findAllByDni(String dni);
+    Usuario findByDni(String dni);
+
 }

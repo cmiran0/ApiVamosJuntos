@@ -1,27 +1,15 @@
-------------------
-EVENTO
-------------------
+---------------
+AddUser http://localhost:8080/vamosJuntos/usuario
+---------------
+{
+	"nombre":"Christian",
+	"apellidos":"Miranda Balladares",
+	"dni":"24545349W",
+	"telefono":611624898
+}
+---------------
+AddCoche http://localhost:8080/vamosJuntos/coche?dni=24545349W
+---------------
+{"matricula":"B3819PG", "tipo":"sedan", "modelo":"clasico","any":1995, "nPlazas":5}
 
-IdEvento
-NombreEvento
-Recinto
-Ciudad
-Fecha
-Hora
-PathImagen
-InfoComplementaria
 
---------------------
-COCHE
---------------------
-
-IdCoche
-IdEvento
-Propietario
-TelfPropietario
-tipoVehiculo modelo
-ano
-puntoSalida HoraSalida
-numPlazasLibres
-numPlazasOcupadas
-InfoComplementaria

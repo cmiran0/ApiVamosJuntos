@@ -10,13 +10,41 @@ import java.util.List;
 @Entity
 public class Coche implements Serializable {
 
+    private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String matricula, tipo, modelo;
     private int any, nPlazas;
 
+    @ManyToOne(targetEntity = Usuario.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "dni_propietario")
+    private Usuario propietario;
+
+    public Usuario getPropietario() {
+        return propietario;
+    }
+
+    public void setPropietario(Usuario propietario) {
+        this.propietario = propietario;
+    }
+
+    @ManyToMany(targetEntity = Usuario.class, cascade = CascadeType.ALL)
+    @JoinTable(name = "coche_pasajeros",
+            joinColumns = @JoinColumn(name = "coche_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "usuario_id",
+                    referencedColumnName = "id"))
+    private List<Usuario> pasajeros;
+
+    public void addPasajero(Usuario usuario){
+        this.pasajeros.add(usuario);
+    }
+
+    /*
+    @JsonIgnore
+    @ManyToMany(mappedBy = "cocheListEvento")
+    private List<Evento> eventos;*/
 
     public Coche() {
     }

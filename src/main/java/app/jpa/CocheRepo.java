@@ -9,8 +9,6 @@ import java.util.List;
 
 @Repository
 public interface CocheRepo extends CrudRepository<Coche, Long> {
-    Coche findAllByMatricula(String matricula);
-    List<Coche> findAllByPropietario(Usuario dni);
-    List<Usuario>findAllByPasajeros(Coche coche);
+Coche findByMatricula(String matricula);
 
 }
